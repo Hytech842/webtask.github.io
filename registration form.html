@@ -44,6 +44,8 @@ span{
 </style>
 </head>
 <body>
+	<div class="row">
+		<div class="col">
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
@@ -58,13 +60,13 @@ span{
           <a class="nav-link" href="index.html">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="registration form.html">Sign Up</a>
+          <a class="nav-link" href="registration form.html">Sign up</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>  
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Dropdown</a>
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Link</a></li>
             <li><a class="dropdown-item" href="#">Another link</a></li>
@@ -72,18 +74,22 @@ span{
           </ul>
         </li>
       </ul>
+      <div class="mx-auto">
       <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Search">
+        <input style="width:30em" class="form-control me-2" type="text" placeholder="Search">
         <button class="btn btn-primary" type="button">Search</button>
       </form>
     </div>
+    </div>
   </div>
 </nav>
+</div>
+</div>
     <div class="container">
 		<div class="row">
 			<div class="panel panel-primary">
 				<div class="panel-body">
-					<form>
+					<form method="POST" action="#" role="form">
 						<div class="form-group">
 							<h2>Create account</h2>
 						</div>
@@ -109,8 +115,7 @@ span{
 						</div>
 						<div class="form-group">
 							<div class="d-grid gap-2">
-								<a href="thank you page.html">
-							<button id="signupSubmit" type="submit" class="btn btn-info btn-block"><span>Create your account</span></button></a>
+							<button id="signupSubmit" type="submit" class="btn btn-info btn-block"><span>Create your account</span></button>
 						</div>
 						</div>
 						<p class="form-group">By creating an account, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>.</p>
