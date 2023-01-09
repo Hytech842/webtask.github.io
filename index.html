@@ -9,9 +9,27 @@
   <!--header logo-->
   <link rel="icon" type="image/png" href="assets/images/hytech842.png">
   <style>
-    .card{
-      align-items: stretch;
+    .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &__wrap {
+
+        &--outer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        &--inner {
+            display: flex;
+            flex-direction: row;
+            width: 33.33%;
+        }
     }
+}
   </style>
   </head>
   <body style="background-color: powderblue;">
