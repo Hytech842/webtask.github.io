@@ -1,0 +1,38 @@
+.fa-cart-plus{
+  background:#0652DD;
+}
+
+.addtocart{
+  display:block;
+  padding:0.5em 1em 0.5em 1em;
+  border-radius:50px;
+  border:none;
+  font-size:16px;
+  position:relative;
+  background:#0652DD;
+  cursor:pointer;
+  height:1.5em;
+  width:5.8em;
+  overflow:hidden;
+  transition:transform 0.1s;
+  z-index:1;
+}
+.addtocart:hover{
+  transform:scale(1.1);
+}
+.pretext{
+  color:#fff;
+  background:#0652DD;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Quicksand', sans-serif;
+}
+i{
+  margin-right:10px;
+}
