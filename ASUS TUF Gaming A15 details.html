@@ -10,6 +10,8 @@
   <link rel="icon" type="image/png" href="assets/images/hytech842.png">
 
 <link rel="stylesheet" type="text/css" href="addtocart.css">
+ <link rel="stylesheet" type="text/css" href="footer.css">
+<link rel="stylesheet" type="text/css" href="offcanvas style.css">
 
 
   </head>
@@ -52,6 +54,26 @@
 </nav>
 </div>
 </div>
+      <div class="row">
+  <div class="container-fluid">
+  <nav class="navbar navbar-expand-sm bg-secondary py-0">
+ <button type="button" class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">All</button>
+</nav>
+</div>
+</div>
+      
+      <!--off canvas-->
+ <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Hello,Sign In</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>.....</p>
+  </div>
+</div>
+ <!--off canvas-->
+      
 <div class="row">
     <div class="col-lg-4">
     <div class="card">
@@ -170,5 +192,36 @@
 </div>
 </div>
 </div>
+  <footer class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <h5>About Us</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna id ullamcorper dictum, augue velit tincidunt augue, eu gravida mauris velit id tellus.</p>
+      </div>
+      <div class="col-sm-4">
+        <h5>Contact Us</h5>
+        <ul>
+          <li>Email: info@example.com</li>
+          <li>Phone: 555-555-5555</li>
+          <li>Address: 123 Main St, Anytown USA</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h5>Follow Us</h5>
+        <div class="social-links">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p class="text-center">Copyright &copy;2022 Your Company. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
