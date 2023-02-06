@@ -30,3 +30,6 @@ span{
 	font-weight: 500;
 	color: white;
 }
+.container{
+    min-height: 100vh; /* minus the height of the footer */
+}
