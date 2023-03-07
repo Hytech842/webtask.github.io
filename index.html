@@ -145,14 +145,7 @@ session_start();
         <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">
           <a href="#">
             <i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
-
-          <?php
-        if (isset($_SESSION['uname'])) {
-          echo "Hello, " . $_SESSION['uname'];
-        } else {
-          echo "Hello, Sign In";
-        }
-      ?>
+          "Hello, Sign In";
         </h5>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
