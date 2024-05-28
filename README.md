@@ -3,7 +3,7 @@
 https://hytech842.github.io/webtask.github.io/
 # e-commerce site
 
-![Project Image](images/home-page.png)
+![Project Image](assets/images/home-page.png)
 
 ## Description
 
