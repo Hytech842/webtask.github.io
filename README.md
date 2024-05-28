@@ -1,7 +1,7 @@
 # webtask.github.io
 #check the demo here
 https://hytech842.github.io/webtask.github.io/
-# Project Title
+# e-commerce site
 
 ![Project Image](images/home-page.png)
 
